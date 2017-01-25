@@ -1,0 +1,2 @@
+# normal
+Normal Distribution Explorations
