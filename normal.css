@@ -1,0 +1,65 @@
+.pdf {
+      stroke: #56B4E9;
+      stroke-width: 1.5;
+      fill: none;
+  }
+.active {
+      stroke-width: 2px;
+  }
+  
+.legend {
+      font-family: verdana;
+      font-size: 15px;
+      fill: #111111;
+  }
+.background {
+      fill: #fffff8;
+  }
+  
+.ticks {
+      font: 10px sans-serif;
+  }
+  
+.track,
+.track-inset,
+.track-overlay {
+      stroke-linecap: butt;
+  }
+  
+.track {
+      stroke: #A29FA6;
+      stroke-opacity: 0.3;
+      stroke-width: 10px;
+  }
+  
+.track-inset {
+      stroke: #A29FA6;
+      stroke-width: 2px;
+  }
+  
+.track-overlay {
+      pointer-events: stroke;
+      stroke-width: 50px;
+      cursor: crosshair;
+  }
+.handlep {
+      fill: salmon;
+      stroke-opacity: 0.5;
+      stroke-width: 1.25px;
+  }
+.whisker {
+      stroke: #111111;
+      /*stroke-opacity: 1.0;*/
+      stroke-width: 1.0;
+      fill: none;
+  }
+.axis text {
+  font-family: helvetica;
+  font-size: 11px;
+}
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #111111;
+    shape-rendering: crispEdges;
+}
