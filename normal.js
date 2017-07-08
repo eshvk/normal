@@ -146,7 +146,6 @@ vslider.append("line")
     .call(d3.drag()
         .on("start.interrupt", function() { vslider.interrupt(); })
         .on("start drag", function() { mpdf(yScale.invert(d3.event.y)); }));
-vslider.insert("g", ".track-overlay");
 var handle = vslider.insert("circle", ".track-overlay")
     .attr("class", "handlep")
     .attr("r", 6)
